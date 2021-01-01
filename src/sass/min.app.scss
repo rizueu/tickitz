@@ -10,8 +10,6 @@
 
 @import 'authComponents', 'navComponents';
 
-$theme-colors: (
-    "primary": #5F2EEA
-);
+@import 'variables';
 
 @import '~bootstrap/scss/bootstrap';

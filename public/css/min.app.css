@@ -664,7 +664,7 @@ progress {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   .container-sm, .container {
     max-width: 540px;
   }
@@ -915,7 +915,7 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   .col-sm {
     flex: 1 0 0%;
   }
@@ -2145,7 +2145,7 @@ progress {
   -webkit-overflow-scrolling: touch;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 359.98px) {
   .table-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -3141,7 +3141,7 @@ textarea.form-control-lg {
   left: auto /* rtl:ignore */;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   .dropdown-menu-sm-start {
     --bs-position: start;
     right: auto /* rtl:ignore */;
@@ -3631,7 +3631,7 @@ textarea.form-control-lg {
   background-size: 100%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -3953,7 +3953,7 @@ textarea.form-control-lg {
 .card-group > .card {
   margin-bottom: 0.75rem;
 }
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   .card-group {
     display: flex;
     flex-flow: row wrap;
@@ -4397,7 +4397,7 @@ textarea.form-control-lg {
   border-left-width: 1px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   .list-group-horizontal-sm {
     flex-direction: row;
   }
@@ -4761,7 +4761,7 @@ textarea.form-control-lg {
   overflow: scroll;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
@@ -4811,7 +4811,7 @@ textarea.form-control-lg {
   border-radius: 0;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 359.98px) {
   .modal-fullscreen-sm-down {
     width: 100vw;
     max-width: none;
@@ -5508,7 +5508,7 @@ textarea.form-control-lg {
   z-index: 1020;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   .sticky-sm-top {
     position: -webkit-sticky;
     position: sticky;
@@ -6743,7 +6743,7 @@ textarea.form-control-lg {
   visibility: hidden !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   .float-sm-start {
     float: left !important;
   }

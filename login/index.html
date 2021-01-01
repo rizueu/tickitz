@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Tikitz</title>
+    <link rel="stylesheet" href="/public/css/min.app.css">
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row vh-100">
+
+            <!-- Left Side -->
+            <div class="col-lg-7 d-sm-none d-lg-block p-0">
+                <div class="background__auth d-flex justify-content-center align-items-center flex-column">
+                    <svg width="446" height="134" viewBox="0 0 446 134" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="446" height="134" fill="url(#pattern0)"/>
+                        <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0" transform="translate(0 -0.00783476) scale(0.00205761 0.00546059)"/>
+                        </pattern>
+                        <image id="image0" width="486" height="186" xlink:href="data:image/png;base64,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"/>
+                        </defs>
+                    </svg>
+                    <span class="text-white fs-2">wait, watch, wow!</span>
+                </div>
+            </div>
+            <!-- End of left side -->
+
+            <!-- Right Side -->
+            <div class="col-lg-5 py-5">
+                <div class="container">
+                    <div class="d-flex justify-content-center align-items-center vh-100">
+                        <div style="width: 400px;">
+
+                            <h1 class="mb-4 fw-bold">Sign In</h1>
+                            <p class="text-muted">Sign in with your data that you entered during your registration</p>
+
+                            <form>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control py-3 px-4 rounded" id="email" placeholder="Write your email" aria-describedby="emailHelp">
+                                </div>
+                                <label for="password" class="form-label">Password</label>
+                                <div class="input-group mb-3">
+                                    <input type="password" class="form-control py-3 px-4 rounded" placeholder="Write your password" id="password">
+                                    <button style="right: 0; top: 15px; z-index: 10;" type="button" class="position-absolute eye">
+                                        <svg style="width: 25px; height: 25px;" fill="none" stroke="gray" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                                    </button>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 py-3 rounded">Sign In</button>
+                            </form>
+
+                            <p class="text-center fs-6 my-4">Forgot your password? <a href="/forgot">Reset now</a></p>
+
+                            <div class="separator w-100 d-flex justify-content-between align-items-center">
+                                <hr>
+                                <small class="text-muted">Or</small>
+                                <hr>
+                            </div>
+
+                            <div class="d-flex justify-content-between mt-4 sign-button">
+                                <button class="btn shadow rounded-1rem">
+                                    <svg class="me-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21.8055 10.0415H21V10H12V14H17.6515C16.827 16.3285 14.6115 18 12 18C8.6865 18 6 15.3135 6 12C6 8.6865 8.6865 6 12 6C13.5295 6 14.921 6.577 15.9805 7.5195L18.809 4.691C17.023 3.0265 14.634 2 12 2C6.4775 2 2 6.4775 2 12C2 17.5225 6.4775 22 12 22C17.5225 22 22 17.5225 22 12C22 11.3295 21.931 10.675 21.8055 10.0415Z" fill="#FFC107"/>
+                                        <path d="M3.15302 7.3455L6.43852 9.755C7.32752 7.554 9.48052 6 12 6C13.5295 6 14.921 6.577 15.9805 7.5195L18.809 4.691C17.023 3.0265 14.634 2 12 2C8.15902 2 4.82802 4.1685 3.15302 7.3455Z" fill="#FF3D00"/>
+                                        <path d="M12 22C14.583 22 16.93 21.0115 18.7045 19.404L15.6095 16.785C14.5717 17.5742 13.3037 18.0011 12 18C9.39897 18 7.19047 16.3415 6.35847 14.027L3.09747 16.5395C4.75247 19.778 8.11347 22 12 22Z" fill="#4CAF50"/>
+                                        <path d="M21.8055 10.0415H21V10H12V14H17.6515C17.2571 15.1082 16.5467 16.0766 15.608 16.7855L15.6095 16.7845L18.7045 19.4035C18.4855 19.6025 22 17 22 12C22 11.3295 21.931 10.675 21.8055 10.0415Z" fill="#1976D2"/>
+                                    </svg>
+                                    Google
+                                </button>
+                                <button class="btn shadow rounded-1rem">
+                                    <svg class="me-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.001 2.00201C6.47901 2.00201 2.00201 6.47901 2.00201 12.001C2.00201 16.991 5.65801 21.127 10.439 21.88V14.892H7.89901V12.001H10.439V9.79801C10.439 7.29001 11.932 5.90701 14.215 5.90701C15.309 5.90701 16.455 6.10201 16.455 6.10201V8.56101H15.191C13.951 8.56101 13.563 9.33301 13.563 10.124V11.999H16.334L15.891 14.89H13.563V21.878C18.344 21.129 22 16.992 22 12.001C22 6.47901 17.523 2.00201 12.001 2.00201Z" fill="#395185"/>
+                                    </svg>
+                                    Facebook
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of right side -->
+
+        </div>
+    </div>
+
+    <script src="../js/min.app.js"></script>
+</body>
+</html>

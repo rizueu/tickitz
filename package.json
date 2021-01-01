@@ -1,0 +1,19 @@
+{
+  "name": "tickitz",
+  "version": "1.0.0",
+  "description": "First Project from Bootcamp",
+  "main": "index.html",
+  "author": "rizueu",
+  "license": "MIT",
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "^5.0.0-beta1"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.5",
+    "postcss": "^8.1",
+    "resolve-url-loader": "3.1.0",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0"
+  }
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+.rounded-1rem {
+    border-radius: 1rem !important;
+}
+
+@import 'authComponents', 'navComponents';
+
+$theme-colors: (
+    "primary": #5F2EEA
+);
+
+@import '~bootstrap/scss/bootstrap';

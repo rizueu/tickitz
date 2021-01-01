@@ -60,6 +60,15 @@ ul.navbar-nav .nav-item {
   margin: 0 20px;
 }
 
+#now-showing h5::after, #now-showing .h5::after {
+  content: "";
+  display: block;
+  width: 85px;
+  margin-top: 10px;
+  margin-left: 25px;
+  border: 2px solid #5F2EEA;
+}
+
 /*!
  * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

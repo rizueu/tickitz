@@ -40,15 +40,18 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">ID</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="#">EN</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item d-sm-none d-md-block">
                         <a class="nav-link" href="">
                             <svg width="20px" fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mt-sm-3 mt-md-0">
                         <a href="/register" class="btn btn-primary px-4">Sign Up</a>
                     </li>
                 </ul>
@@ -56,6 +59,66 @@
         </div>
     </nav>
     <!-- End of navbar -->
+
+    <!-- Hero section -->
+    <div class="container">
+        <div class="row py-4" id="hero">
+            <div class="col-md-6 d-flex align-items-center justify-content-sm-center justify-content-md-start">
+                <div class="text-center">
+                    <p class="fs-md-4 fs-sm-2 text-muted">Nearest Cinema, Newest Movie,</p>
+                    <h1 style="margin-top: -15px;" class="display-4 text-primary fw-bold">Find out now!</h1>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <img src="/src/img/hero.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- End of hero section -->
+
+    <!-- Movies now showing section -->
+    <div style="background-color: #F5F6F8;" class="py-5" id="now-showing">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-6">
+                    <h5 class="fw-bold text-primary">Now Showing</h5>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <a class="text-primary text-decoration-none" href="">view all</a>
+                </div>
+            </div>
+
+            <div class="row">
+                
+            </div>
+
+        </div>
+    </div>
+    <!-- End of movies now showing section -->
+
+    <!-- Upcoming movies section -->
+    <div class="py-5" id="upcoming">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-6">
+                    <h5 class="fw-bold">Upcoming Movies</h5>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <a class="text-primary text-decoration-none" href="">view all</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End of Upcoming movies section -->
+
+    <!-- be the vanguard section -->
+    
+    <!-- End of be the vanguard section -->
+
+
 
     <script src="/public/js/min.app.js"></script>
 </body>

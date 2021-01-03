@@ -4,33 +4,7 @@
     font-family: 'Mulish', sans-serif;
 }
 
-.movie-lists {
-    display: flex;
-    overflow-x: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-.movie-lists::-webkit-scrollbar {
-    display: none;
-}
-
-.movie-lists button {
-    padding: 0.5rem 1.5rem;
-}
-
-.movies-card {
-    padding: 2rem;
-    border-radius: 10px;
-    margin-right: 1.5rem;
-    border: 2px solid white;
-}
-
-.movies-card small {
-    font-size: 12px;
-}
-
-@import 'authComponents', 'navComponents', 'homeComponents';
+@import 'authComponents', 'navComponents', 'homeComponents', 'moviesComponents';
 
 @import 'variables';
 

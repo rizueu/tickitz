@@ -1,0 +1,35 @@
+.showtimes-form {
+    color: #4E4B66 !important;
+    background-color: #EFF0F6 !important;
+    border: 0 !important;
+    padding: 0.9rem 2rem !important;
+    // padding-left: 5rem !important;
+    border-radius: 10px;
+}
+
+.showtimes-form[type=date]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    background: url('/src/img/svg/chevron.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    top: 4px;
+    right: -27px;
+}
+
+.showtimes-form[type=date]::before {
+    content: '';
+    background: url('/src/img/svg/calendar.svg');
+    width: 25px;
+    height: 25px;
+    margin-right: 1.5rem;
+}
+
+select.showtimes-form::before {
+    content: '';
+    background: url('/src/img/svg/location.svg');
+    width: 25px;
+    height: 25px;
+    margin-right: 1.5rem;
+    display: block;
+    position: relative;
+}

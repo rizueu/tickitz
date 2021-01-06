@@ -16,6 +16,24 @@
     right: -27px;
 }
 
+.showtimes-form[type=date]::-moz-calendar-picker-indicator {
+    cursor: pointer;
+    background: url('/src/img/svg/chevron.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    top: 4px;
+    right: -27px;
+}
+
+.showtimes-form[type=date]::-ms-calendar-picker-indicator {
+    cursor: pointer;
+    background: url('/src/img/svg/chevron.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    top: 4px;
+    right: -27px;
+}
+
 .showtimes-form[type=date]::before {
     content: '';
     background: url('/src/img/svg/calendar.svg');
